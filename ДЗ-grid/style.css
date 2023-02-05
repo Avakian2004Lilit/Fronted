@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.item{
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 300px 150px 300px 500px 300px;
+    grid-template-rows: repeat(4,100px);
+}
+.items{
+    font-size: 15px;
+    text-align: center;
+    justify-items: center;
+    background-color: aqua;
+    border: 1px solid white;
+}
+.items:nth-child(1){
+    background-color: blueviolet;
+}
+.items:nth-child(2){
+    grid-column: 2/4;
+    grid-row: 1/3;
+    background-color: red;
+}
+.items:nth-child(3){
+    grid-column: 4/5;
+    grid-row: 1/5;
+    background-color: yellow;
+
+}
+.items:nth-child(4){
+    background-color: rgb(220, 196, 196);
+}
+.items:nth-child(5){
+    background-color: green;
+}
+.items:nth-child(6){
+    background-color: greenyellow;
+}
+.items:nth-child(7){
+    background-color: brown;
+}
+.items.items:nth-child(8){
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-color: blue;
+}
+.items:nth-child(9){
+    background-color: black;
+}
+.items:nth-child(10){
+    background-color: violet;
+}
+.items:nth-child(11){
+    grid-column: 1/4;
+    grid-row: 4/5;
+    background-color: aqua;
+
+}
+.items:nth-child(12){
+    background-color: rgb(93, 27, 27);
+}
+/*-№2-*/
+
+.one{
+    background-color: rgb(151, 151, 221);
+    margin-top: 20px;
+    margin-left: 5%;
+    display: inline-grid;
+    grid-template: repeat(4,100px)/repeat(9,100px);
+    gap: 2px;
+   
+}
+.two{
+    border: 2px solid blue;
+}
+
+
+.two:nth-child(3){
+    grid-column: 3/7;
+    border: none;
+}
+.two:nth-child(25){
+    grid-column: 1/2;
+    grid-row: 4/5;
+    border: none;
+}
+#three{
+    border: 2px solid yellow;
+}
+/*--№3--*/
+.elem{
+   margin-bottom: 50px;
+   margin-top: 20px;
+   margin-left: 20px;
+   display: grid;
+   grid-template:repeat(5,40px)/ repeat(10,60px);
+   gap: 1px;
+}
+.elems{
+    background-color: antiquewhite;
+    border: 1px dashed black;
+    text-align: end;
+}
+.elems:nth-child(16){
+    grid-column: 2/4;
+    grid-row: 4/5;
+}
+.elems:nth-child(2){
+    grid-column: 4/6;
+    grid-row: 4/6;
+}
+.elems:nth-child(24){
+    grid-column: 1/3;
+    grid-row: 5/7;
+    background-color: violet;
+}
+.elems:nth-child(17){
+    grid-column: 3/4;
+    grid-row: 5/7;
+}
+.elems:nth-child(12){
+    grid-column: 4/6;
+    grid-row: 6/7;
+}
+.elems:nth-child(5){
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+.elems:nth-child(22){
+    grid-column: 1/3;
+    grid-row: 3/4;
+    background-color: burlywood;
+}
+.elems:nth-child(6){
+    grid-column: 4/6;
+    grid-row: 2/4;
+    background-color: rosybrown;
+
+}
+.elems:nth-child(7){
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.elems:nth-child(13){
+    grid-column: 1/3;
+    grid-row: 1/3;
+    background-color: greenyellow;
+}
+.elems:nth-child(9){
+    grid-column: 3/5;
+    grid-row: 1/2;
+}
+.elems:nth-child(18){
+    grid-column: 5/6;
+    grid-row: 1/2;
+    background-color: yellowgreen;
+}
+
+/* --№4--*/
+.photo{
+    display: inline-grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template: repeat(8,300px)/ repeat(8,300px);
+    gap: 2px;
+    margin-left: 100px;
+}
+.photos{
+    background-image: url(https://www.meme-arsenal.com/memes/314dbabf7c10b65ad9c94ad0ad6c96ea.jpg);
+}
+.photos:nth-child(2){
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHDXWBQjDGku2FRNLRIzA1LIzHMKfXz4f6vwYa67Ruug&s);
+}
+.photos:nth-child(3){
+    background-image: url(https://avatars.mds.yandex.net/i?id=dc662548fd331a0ba75824d8fea61f512902e2e7-4327459-images-thumbs&n=13);
+
+}
+.photos:nth-child(4){
+    background-image: url(https://st.depositphotos.com/1594920/4197/i/600/depositphotos_41976415-stock-photo-close-up-of-a-young.jpg);
+
+}
+.photos:nth-child(5){
+    background-image: url(https://omoro.ru/wp-content/uploads/2019/01/obeziany-1.jpg);
+
+}
+.photos:nth-child(6){
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZONdcBFRzBjK4_o7VliaQh_hWQ9DCOo4J0L1dKY6hyNHsWAYKhRec9KOi5dUibsJnNic&usqp=CAU);
+
+}
+.photos:nth-child(7){
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7u00-ZyOeuuxpCPhTkU1kd7j6kTRx6EbP9VGtHvTtRbFRJfvMzUECXpAxBurcfbmiU-A&usqp=CAU);
+
+}
+.photos:nth-child(8){
+   background-image: url(https://kartinkof.club/uploads/posts/2022-04/1649630319_1-kartinkof-club-p-ugarnie-kartinki-s-obezyanami-1.jpg);
+
+}
+.photos:nth-child(9){
+    background-image: url(https://www.meme-arsenal.com/memes/3083ca7c4ec7c36967b492dcc54339cc.jpg);
+
+}
